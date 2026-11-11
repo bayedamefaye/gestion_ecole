@@ -1,0 +1,296 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R] /Count 7 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 1178 >>
+stream
+0.09 0.17 0.29 rg 0 820 595 22 re f
+BT /F2 15 Tf 1 1 1 rg 46 788 Tm (Guide complet du code - School Kadija) Tj ET
+BT /F2 10 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 760 Tm (SCHOOL KADIJA · GUIDE DE LECTURE) Tj ET
+BT /F2 10 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 747.8 Tm (Comprendre le code) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 735.6 Tm (du projet scolaire) Tj ET
+BT /F2 10 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 723.4 Tm (Guide en français pour comprendre le rôle de chaque fichier, le parcours de connexion et) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 711.2 Tm (les limites de la version actuelle.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 699 Tm (Dossier analysé : projet1ddiery) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 686.8 Tm (Code consulté le 30 octobre 2026) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 674.6 Tm (Ce guide décrit les sources présentes dans le dossier; il ne suppose pas de fonctions) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 662.4 Tm (encore absentes.) Tj ET
+0.83 0.87 0.91 rg 46 39 503 0.7 re f
+BT /F1 8 Tf 0.4 0.45 0.52 rg 46 24 Tm (School Kadija | Guide de lecture du projet) Tj ET
+BT /F1 8 Tf 0.4 0.45 0.52 rg 510 24 Tm (1 / 7) Tj ET
+
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3515 >>
+stream
+0.09 0.17 0.29 rg 0 820 595 22 re f
+BT /F2 15 Tf 1 1 1 rg 46 788 Tm (Guide complet du code - School Kadija) Tj ET
+BT /F2 10 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 760 Tm (1. Vue générale) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 747.8 Tm (School Kadija est un site de gestion scolaire écrit en PHP, HTML et CSS. PHP construit les) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 735.6 Tm (pages et applique les contrôles d'accès. HTML décrit les textes, formulaires, cartes et) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 723.4 Tm (tableaux. CSS règle les couleurs, espacements, alignements et adaptations aux écrans.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 711.2 Tm (Fichiers | Rôle |) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 699 Tm (index.php, accueil.php, accueil.css | Entrée du site et page de présentation. |) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 686.8 Tm (auth.php, connexion.php, connexion.css | Connexion, sessions, contrôles et formulaire. |) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 674.6 Tm (deux.php, deux.css | Tableau de bord administrateur. |) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 662.4 Tm (eleve.php, eleve.css | Espace de démonstration d'un élève. |) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 650.2 Tm (enseignant.php, enseignant.css | Espace de démonstration du personnel enseignant. |) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 638 Tm (directeur.php, directeur.css | Espace de démonstration de la direction. |) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 625.8 Tm (demarrer-serveur.bat, demarrer-serveur.ps1 | Lance le serveur PHP local. |) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 613.6 Tm (logo-school-kadija.svg, make_explanation_pdf.php | Emblème vectoriel et ancien générateur) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 601.4 Tm (PDF sur la connexion. |) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 583.2 Tm (État actuel : aucun accès à une base de données n'apparaît dans les fichiers. Les) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 571 Tm (compteurs à zéro et les tableaux vides sont inscrits directement dans les pages; ils ne) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 558.8 Tm (reflètent pas des dossiers réellement enregistrés.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 546.6 Tm (Parcours d'une visite) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 534.4 Tm (index.php redirige vers l'accueil. Le bouton de connexion ouvre le formulaire. Après) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 522.2 Tm (authentification, l'utilisateur arrive sur deux.php, puis peut ouvrir les écrans Élève,) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 510 Tm (Enseignant ou Directeur. Une session est le mécanisme PHP qui mémorise l'état connecté) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 497.8 Tm (entre les requêtes.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 485.6 Tm (Notions PHP) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 473.4 Tm ($_GET lit les paramètres de l'adresse comme ?page=emploi; $_POST reçoit les champs du) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 461.2 Tm (formulaire; $_SESSION conserve l'état de connexion; require_once charge un fichier une) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 449 Tm (seule fois; header\('Location:...'\) redirige le navigateur et exit arrête le script.) Tj ET
+0.83 0.87 0.91 rg 46 39 503 0.7 re f
+BT /F1 8 Tf 0.4 0.45 0.52 rg 46 24 Tm (School Kadija | Guide de lecture du projet) Tj ET
+BT /F1 8 Tf 0.4 0.45 0.52 rg 510 24 Tm (2 / 7) Tj ET
+
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 3646 >>
+stream
+0.09 0.17 0.29 rg 0 820 595 22 re f
+BT /F2 15 Tf 1 1 1 rg 46 788 Tm (Guide complet du code - School Kadija) Tj ET
+BT /F2 10 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 760 Tm (2. Connexion et sécurité) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 747.8 Tm (auth.php : fonctions partagées) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 735.6 Tm (school_admin_email\(\) retourne l'adresse unique permise.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 723.4 Tm (Le bloc de session active le mode strict, crée le dossier sessions si nécessaire et) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 711.2 Tm (démarre la session PHP.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 699 Tm (school_credentials_configured\(\) vérifie l'adresse et la présence du hash dans) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 686.8 Tm (SCHOOL_ADMIN_PASSWORD_HASH.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 674.6 Tm (school_is_authenticated\(\) teste le marqueur school_authenticated en session.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 662.4 Tm (school_require_authentication\(\) renvoie les visiteurs non connectés vers la page de) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 650.2 Tm (connexion.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 638 Tm (school_logout\(\) vide les valeurs de session, expire le cookie et détruit la session.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 619.8 Tm (connexion.php : traitement du formulaire) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 607.6 Tm (Le fichier inclut auth.php. Il traite d'abord une éventuelle déconnexion; si l'utilisateur) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 595.4 Tm (est déjà connecté, il va au tableau de bord. Pour une requête POST, il lit l'e-mail et) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 583.2 Tm (le mot de passe, valide le format de l'adresse, vérifie que la configuration existe et) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 571 Tm (compare les identifiants.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 558.8 Tm (hash_equals\(\) compare l'adresse autorisée sans arrêt prématuré. password_verify\(\)) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 546.6 Tm (compare le mot de passe saisi avec l'empreinte cryptographique fournie par l'environnement.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 534.4 Tm (Si tout est correct, session_regenerate_id\(true\) renouvelle l'identifiant de session, le) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 522.2 Tm (marqueur connecté est placé et le navigateur est redirigé vers deux.php.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 510 Tm (Le formulaire HTML utilise les champs nommés email et motdepasse. Le navigateur aide à) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 497.8 Tm (valider le format avec type="email" et le champ obligatoire, mais PHP refait ses contrôles.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 485.6 Tm (htmlspecialchars\(\) protège l'insertion des messages dans la page.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 473.4 Tm (Le script PowerShell demande le mot de passe et PHP en calcule le hash avec password_hash\(\).) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 461.2 Tm (Le mot de passe en clair n'est pas stocké dans le code.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 449 Tm (Limite : il n'y a pas de compteur d'échecs, de verrouillage temporaire, de récupération) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 436.8 Tm (par courriel ni de comptes séparés par rôle.) Tj ET
+0.83 0.87 0.91 rg 46 39 503 0.7 re f
+BT /F1 8 Tf 0.4 0.45 0.52 rg 46 24 Tm (School Kadija | Guide de lecture du projet) Tj ET
+BT /F1 8 Tf 0.4 0.45 0.52 rg 510 24 Tm (3 / 7) Tj ET
+
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 3317 >>
+stream
+0.09 0.17 0.29 rg 0 820 595 22 re f
+BT /F2 15 Tf 1 1 1 rg 46 788 Tm (Guide complet du code - School Kadija) Tj ET
+BT /F2 10 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 760 Tm (3. Accueil et tableau de bord) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 747.8 Tm (index.php) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 735.6 Tm (Ce court fichier répond par une redirection vers accueil.php, puis termine son exécution.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 723.4 Tm (Il n'affiche pas de contenu.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 711.2 Tm (accueil.php et accueil.css) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 699 Tm (L'accueil est une page de présentation : marque SK, message de bienvenue, carte de gestion) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 686.8 Tm (scolaire, lien de connexion et pied de page. Le CSS organise l'en-tête et la zone) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 674.6 Tm (principale avec Flexbox, crée les cartes et ajuste les colonnes selon la largeur de) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 662.4 Tm (l'écran avec @media.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 650.2 Tm (deux.php et deux.css) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 638 Tm (Cette page commence par charger l'authentification et appelle la protection. Elle affiche la) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 625.8 Tm (barre latérale d'administration, des liens vers les trois profils, l'année scolaire et) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 613.6 Tm (quatre statistiques. Les nombres sont écrits en dur à zéro. Le bloc « dernières) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 601.4 Tm (inscriptions » est commenté en HTML et ne s'affiche pas; son lien vise inscriptions.html,) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 589.2 Tm (qui n'existe pas dans le dossier examiné.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 577 Tm (Le CSS donne une barre latérale, une zone principale, des cartes colorées, des styles de) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 564.8 Tm (tableaux et des règles pour écrans moins larges. Les classes du HTML, comme .sidebar ou) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 552.6 Tm (.carte, sont reliées aux sélecteurs CSS de même nom.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 540.4 Tm (Comment lire le CSS) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 528.2 Tm (Un point cible une classe : .carte vise class="carte". Un nom sans point comme footer vise) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 516 Tm (la balise HTML. :hover définit l'apparence au survol. display:flex aligne les éléments;) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 503.8 Tm (display:grid crée des colonnes; @media adapte la mise en page aux mobiles. Le CSS ne) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 491.6 Tm (contrôle jamais l'identité ou les données.) Tj ET
+BT /F2 10 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 479.4 Tm (À ne pas confondre : les étiquettes statistiques donnent l'impression de données) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 467.2 Tm (réelles, mais aucun calcul ou stockage n'est associé actuellement.) Tj ET
+0.83 0.87 0.91 rg 46 39 503 0.7 re f
+BT /F1 8 Tf 0.4 0.45 0.52 rg 46 24 Tm (School Kadija | Guide de lecture du projet) Tj ET
+BT /F1 8 Tf 0.4 0.45 0.52 rg 510 24 Tm (4 / 7) Tj ET
+
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 3188 >>
+stream
+0.09 0.17 0.29 rg 0 820 595 22 re f
+BT /F2 15 Tf 1 1 1 rg 46 788 Tm (Guide complet du code - School Kadija) Tj ET
+BT /F2 10 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 760 Tm (4. Les espaces par profil) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 747.8 Tm (eleve.php avec eleve.css) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 735.6 Tm (La page vérifie la session, initialise un profil minimal et choisit entre le tableau de) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 723.4 Tm (bord et l'emploi du temps avec le paramètre page. Elle affiche des compteurs d'exemple et) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 711.2 Tm (un tableau vide. Le CSS met en forme profil, menu, cartes et tableau; il empile les) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 699 Tm (éléments sur petit écran.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 686.8 Tm (Erreur possible : la session initialise nom mais le HTML affiche aussi) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 674.6 Tm ($_SESSION['eleve']['classe']. Cette clé n'est définie nulle part dans l'initialisation) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 662.4 Tm (actuelle; PHP peut donc afficher un avertissement. Il faut lui donner une valeur ou ne pas) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 650.2 Tm (l'afficher.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 638 Tm (enseignant.php avec enseignant.css) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 625.8 Tm (Les vues autorisées sont dashboard, classes, emploi et evaluations. Une valeur inconnue) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 613.6 Tm (revient au tableau de bord. Les cartes, raccourcis et tableaux sont de la maquette; les) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 601.4 Tm (lignes affichent qu'aucun élève, cours ou test n'est disponible.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 589.2 Tm (directeur.php avec directeur.css) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 577 Tm (Les vues sont tableau de bord, classes, personnel et fiche établissement. Les tableaux sont) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 564.8 Tm (vides et certains renseignements indiquent « À renseigner ». Le titre est échappé avec) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 552.6 Tm (htmlspecialchars\(\). La navigation visible ne propose que le tableau de bord et le retour;) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 540.4 Tm (les autres vues restent accessibles en ajoutant ?page=classes, ?page=personnel ou) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 528.2 Tm (?page=fiche à l'adresse.) Tj ET
+BT /F2 10 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 516 Tm (Important pour les rôles) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 503.8 Tm (Les trois espaces ne correspondent pas encore à trois comptes ni à trois niveaux de) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 491.6 Tm (permission. Ils utilisent tous la même authentification administrateur et partagent donc le) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 479.4 Tm (même contrôle d'accès.) Tj ET
+0.83 0.87 0.91 rg 46 39 503 0.7 re f
+BT /F1 8 Tf 0.4 0.45 0.52 rg 46 24 Tm (School Kadija | Guide de lecture du projet) Tj ET
+BT /F1 8 Tf 0.4 0.45 0.52 rg 510 24 Tm (5 / 7) Tj ET
+
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 3073 >>
+stream
+0.09 0.17 0.29 rg 0 820 595 22 re f
+BT /F2 15 Tf 1 1 1 rg 46 788 Tm (Guide complet du code - School Kadija) Tj ET
+BT /F2 10 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 760 Tm (5. Scripts, logo et fichiers annexes) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 747.8 Tm (demarrer-serveur.bat) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 735.6 Tm (Le fichier batch Windows se place dans le dossier du projet, lance PowerShell avec le script) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 723.4 Tm (de démarrage et garde la fenêtre ouverte pour montrer les erreurs.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 711.2 Tm (demarrer-serveur.ps1) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 699 Tm (Vérifie la présence de PHP à C:\\xampp\\php\\php.exe.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 686.8 Tm (Demande le mot de passe en saisie masquée.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 674.6 Tm (Fait calculer son hash par PHP.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 662.4 Tm (Efface la variable temporaire et libère le tampon contenant le secret.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 650.2 Tm (Lance le serveur PHP local sur http://localhost:8000/.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 632 Tm (Cette méthode suppose que XAMPP se trouve à cet emplacement. Il faut laisser la fenêtre) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 619.8 Tm (ouverte pour utiliser le serveur; Ctrl+C l'arrête.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 607.6 Tm (logo-school-kadija.svg) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 595.4 Tm (Un SVG décrit une image vectorielle par balises et formes. Ici, un bouclier bleu contient) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 583.2 Tm (un bâtiment blanc avec une porte dorée. Le format peut être agrandi sans pixellisation.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 571 Tm (Les pages actuelles affichent souvent les initiales SK en texte plutôt que ce fichier.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 558.8 Tm (make_explanation_pdf.php) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 546.6 Tm (C'est un outil annexe qui fabrique un ancien guide PDF consacré au blocage par adresse,) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 534.4 Tm (surtout à auth.php et connexion.php. Ce n'est pas une page du site. Le script écrit) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 522.2 Tm (lui-même des objets PDF, d'où sa structure plus complexe que les autres fichiers.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 510 Tm (Dossiers) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 497.8 Tm (sessions stocke des données de session si PHP peut y écrire. output/pdf contient des PDF) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 485.6 Tm (et fichiers de sortie précédemment créés; ils ne sont pas nécessaires pour afficher) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 473.4 Tm (l'application.) Tj ET
+0.83 0.87 0.91 rg 46 39 503 0.7 re f
+BT /F1 8 Tf 0.4 0.45 0.52 rg 46 24 Tm (School Kadija | Guide de lecture du projet) Tj ET
+BT /F1 8 Tf 0.4 0.45 0.52 rg 510 24 Tm (6 / 7) Tj ET
+
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 2905 >>
+stream
+0.09 0.17 0.29 rg 0 820 595 22 re f
+BT /F2 15 Tf 1 1 1 rg 46 788 Tm (Guide complet du code - School Kadija) Tj ET
+BT /F2 10 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 760 Tm (6. Ce qui est prêt et ce qui reste) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 747.8 Tm (Déjà présent | Encore à réaliser pour un vrai logiciel scolaire |) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 735.6 Tm (Présentation et formulaire de connexion. | Base de données pour élèves, enseignants,) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 723.4 Tm (cours, classes et notes. |) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 711.2 Tm (Vérification d'un administrateur et protection par session. | Comptes distincts et) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 699 Tm (permissions pour chaque profil. |) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 686.8 Tm (Maquettes de tableaux de bord et pages informatives. | Formulaires pour créer, modifier et) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 674.6 Tm (supprimer les dossiers. |) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 662.4 Tm (Styles qui s'adaptent aux écrans mobiles. | Données réelles, sauvegardes, validation de) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 650.2 Tm (chaque opération. |) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 632 Tm (Ordre conseillé pour comprendre le code) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 619.8 Tm (Commencer par index.php, puis accueil.php.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 607.6 Tm (Lire le formulaire et les contrôles dans connexion.php.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 595.4 Tm (Voir les fonctions réutilisées dans auth.php.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 583.2 Tm (Suivre le contrôle d'accès dans deux.php.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 571 Tm (Ouvrir un espace comme enseignant.php, puis comparer ses classes HTML aux règles de) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 558.8 Tm (enseignant.css.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 546.6 Tm (Enfin, lire les scripts de démarrage pour comprendre comment PHP est lancé.) Tj ET
+BT /F2 10 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 528.4 Tm (Résumé mental : PHP décide de l'accès et du contenu; HTML décrit les éléments de la) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 516.2 Tm (page; CSS les met en forme; la session mémorise la connexion. Les informations scolaires) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 504 Tm (affichées sont encore des exemples statiques.) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 491.8 Tm (Source : fichiers PHP, CSS, SVG et scripts présents dans le dossier du projet, consultés) Tj ET
+BT /F1 9 Tf 0.13 0.19 0.29 rg 1 0 0 1 46 479.6 Tm (le 30 octobre 2026.) Tj ET
+0.83 0.87 0.91 rg 46 39 503 0.7 re f
+BT /F1 8 Tf 0.4 0.45 0.52 rg 46 24 Tm (School Kadija | Guide de lecture du projet) Tj ET
+BT /F1 8 Tf 0.4 0.45 0.52 rg 510 24 Tm (7 / 7) Tj ET
+
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 17 0 R >>
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000162 00000 n 
+0000000259 00000 n 
+0000000361 00000 n 
+0000001591 00000 n 
+0000001727 00000 n 
+0000005294 00000 n 
+0000005430 00000 n 
+0000009128 00000 n 
+0000009265 00000 n 
+0000012635 00000 n 
+0000012773 00000 n 
+0000016014 00000 n 
+0000016152 00000 n 
+0000019278 00000 n 
+0000019416 00000 n 
+0000022374 00000 n 
+trailer
+<< /Size 19 /Root 1 0 R >>
+startxref
+22512
+%%EOF

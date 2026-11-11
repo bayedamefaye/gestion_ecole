@@ -1,0 +1,198 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: #eef4fa;
+    color: #30364b;
+    display: flex;
+    flex-direction: column;
+}
+
+.entete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 6%;
+    background: #f7f8fc;
+    border-bottom: 1px solid #e0e5ed;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #303247;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo-icon {
+    object-fit: contain;
+    padding: 2px;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #48405f;
+    color: white;
+    border-radius: 11px;
+    font-size: 15px;
+}
+
+.retour {
+    color: #48405f;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.retour:hover,
+.lien-accueil:hover {
+    text-decoration: underline;
+}
+
+.conteneur {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 20px;
+}
+
+.carte-connexion {
+    width: 100%;
+    max-width: 440px;
+    padding: 38px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(45, 57, 82, 0.08);
+}
+
+.icone-connexion {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 17px;
+    background: #48405f;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.carte-connexion h1 {
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: center;
+    font-size: 14px;
+    color: #68738a;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.champ {
+    margin-bottom: 22px;
+}
+
+.champ label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.champ input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #dfe4ed;
+    border-radius: 9px;
+    background: #fafbfe;
+    color: #30364b;
+    font-size: 14px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.champ input:focus {
+    border-color: #7770a1;
+    box-shadow: 0 0 0 3px rgba(72, 64, 95, 0.08);
+}
+
+.bouton {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    background: #48405f;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.bouton:hover {
+    background: #39324f;
+}
+
+.message {
+    margin-bottom: 20px;
+    padding: 12px;
+    background: #fff0f0;
+    color: #b83e4b;
+    border-radius: 8px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.lien-accueil {
+    display: block;
+    margin-top: 24px;
+    text-align: center;
+    color: #48405f;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #8992a3;
+}
+
+@media (max-width: 500px) {
+    .entete {
+        padding: 15px;
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .retour {
+        font-size: 12px;
+    }
+
+    .carte-connexion {
+        padding: 27px 22px;
+    }
+}
+
+

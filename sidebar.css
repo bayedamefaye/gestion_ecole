@@ -1,0 +1,19 @@
+/* Harmonise le menu latéral de toutes les pages sur celui du tableau de bord. */
+.sidebar { width: 250px !important; min-width: 250px; min-height: 100vh; padding: 25px 18px; background: #fff; border: 0; box-shadow: 3px 0 15px rgba(0,0,0,.04); }
+.sidebar .logo { gap: 10px; margin-bottom: 40px; padding: 0; font-size: inherit; }
+.sidebar .logo span, .sidebar .logo-icon { width: 42px; height: 42px; flex: 0 0 auto; display: flex; align-items: center; justify-content: center; border-radius: 10px; background: #2459a9; color: #fff; font-weight: bold; }
+.sidebar .logo h2 { margin: 0; color: #294b7a; font-size: 19px; }
+.sidebar .profil { padding: 0 0 30px; margin: 0; border: 0; border-bottom: 1px solid #edf0f6; }
+.sidebar .avatar { width: 65px; height: 65px; margin: 0 auto 12px; background: #e3efff; color: #2459a9; }
+.sidebar .profil h3 { margin: 0 0 5px; }
+.sidebar .profil p { color: #71809b; font-size: 13px; }
+.sidebar .menu, .sidebar nav { display: flex; flex-direction: column; gap: 10px; margin-top: 28px; }
+.sidebar .menu a, .sidebar nav a { padding: 14px 12px; border-radius: 8px; color: #425574; font-size: 14px; font-weight: bold; text-decoration: none; }
+.sidebar .menu a:hover, .sidebar nav a:hover, .sidebar .menu a.active, .sidebar nav a.active { background: #294b7a; color: #fff; }
+.sidebar .menu a.deconnexion, .sidebar nav a.deconnexion { margin-top: 8px; color: #a43e48; background: #fff1f2; }
+.sidebar .menu a.deconnexion:hover, .sidebar nav a.deconnexion:hover { color: #fff; background: #a43e48; }
+.sidebar .sidebar-footer { margin-top: auto; padding: 30px 0 0; color: #8b96aa; font-size: 12px; text-align: center; }
+.lien-tableau-bord { display: inline-block; margin-bottom: 18px; color: #2459a9; font-size: 13px; font-weight: bold; text-decoration: none; }
+.lien-tableau-bord:hover { text-decoration: underline; }
+@media (max-width: 900px) { .sidebar { width: 210px !important; min-width: 210px; } }
+@media (max-width: 600px) { .sidebar { width: 100% !important; min-width: 0; min-height: auto; } .sidebar .profil { display: none; } .sidebar .menu, .sidebar nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 10px; } .sidebar .sidebar-footer { display: none; } }

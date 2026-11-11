@@ -1,0 +1,234 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 3121 >>
+stream
+0.09 0.17 0.29 rg 0 830 595 12 re f
+BT /F2 21 Tf 0.09 0.17 0.29 rg 1 0 0 1 46 789 Tm (Comprendre le blocage par e-mail) Tj ET
+BT /F1 9 Tf 0.38 0.43 0.49 rg 1 0 0 1 46 769 Tm (Lecture du code de connexion de School Kadija) Tj ET
+0.83 0.87 0.91 RG 0.7 w 46 750 m 549 750 l S
+0.92 0.96 0.99 rg 46 691 503 42 re f
+0.12 0.38 0.66 rg 46 691 4 42 re f
+BT /F2 9 Tf 0.09 0.17 0.29 rg 1 0 0 1 59 720 Tm (A clarifier : le code ne bloque pas un compte apres plusieurs echecs et níenvoie) Tj ET
+BT /F2 9 Tf 0.09 0.17 0.29 rg 1 0 0 1 59 707 Tm (aucun e-mail. Il reserve la connexion a une adresse e-mail precise.) Tj ET
+BT /F2 12 Tf 0.12 0.38 0.66 rg 1 0 0 1 46 677 Tm (Ce que le code fait) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 658 Tm (La page connexion.php affiche un formulaire e-mail / mot de passe. A líenvoi, le serveur) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 645.5 Tm (verifie le format de líadresse, la configuration du mot de passe, puis compare líadresse) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 633 Tm (saisie a celle de líadministrateur. Si les deux identifiants sont valides, une session) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 620.5 Tm (authentifiee est ouverte et líutilisateur est redirige vers deux.php.) Tj ET
+BT /F2 12 Tf 0.12 0.38 0.66 rg 1 0 0 1 46 597 Tm (Les deux fichiers concernes) Tj ET
+0.12 0.38 0.66 rg 48 580 4 4 re f
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 578 Tm (auth.php : adresse administrateur, demarrage et securisation de session, verification de) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 565.5 Tm (líetat connecte, protection des pages et deconnexion.) Tj ET
+0.12 0.38 0.66 rg 48 551 4 4 re f
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 549 Tm (connexion.php : reception du formulaire, validation des identifiants, affichage des) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 536.5 Tm (erreurs et redirection apres connexion.) Tj ET
+BT /F2 12 Tf 0.12 0.38 0.66 rg 1 0 0 1 46 515 Tm (Parcours díune tentative) Tj ET
+0.92 0.96 0.99 rg 46 494 18 18 re f
+BT /F2 9 Tf 0.12 0.38 0.66 rg 1 0 0 1 52 499 Tm (1) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 73 496 Tm (Líutilisateur saisit son e-mail et son mot de passe sur connexion.php.) Tj ET
+0.92 0.96 0.99 rg 46 475.5 18 18 re f
+BT /F2 9 Tf 0.12 0.38 0.66 rg 1 0 0 1 52 480.5 Tm (2) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 73 477.5 Tm (Le navigateur envoie les champs en POST au meme fichier.) Tj ET
+0.92 0.96 0.99 rg 46 457 18 18 re f
+BT /F2 9 Tf 0.12 0.38 0.66 rg 1 0 0 1 52 462 Tm (3) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 73 459 Tm (PHP controle les valeurs, puis compare e-mail et mot de passe.) Tj ET
+0.92 0.96 0.99 rg 46 438.5 18 18 re f
+BT /F2 9 Tf 0.12 0.38 0.66 rg 1 0 0 1 52 443.5 Tm (4) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 73 440.5 Tm (Echec : un message generique est affiche. Reussite : la session est renouvelee et) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 73 428 Tm (ouverte.) Tj ET
+0.83 0.87 0.91 rg 46 34 503 0.7 re f
+BT /F1 8 Tf 0.38 0.43 0.49 rg 1 0 0 1 46 19 Tm (School Kadija | Guide de lecture du code) Tj ET
+BT /F1 8 Tf 0.38 0.43 0.49 rg 1 0 0 1 515 19 Tm (1 / 4) Tj ET
+
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 3582 >>
+stream
+0.09 0.17 0.29 rg 0 830 595 12 re f
+BT /F2 21 Tf 0.09 0.17 0.29 rg 1 0 0 1 46 789 Tm (1. Le fichier auth.php) Tj ET
+BT /F1 9 Tf 0.38 0.43 0.49 rg 1 0 0 1 46 769 Tm (Les fonctions partagees par les pages protegees) Tj ET
+0.83 0.87 0.91 RG 0.7 w 46 750 m 549 750 l S
+BT /F2 12 Tf 0.12 0.38 0.66 rg 1 0 0 1 46 721 Tm (Adresse autorisee \(lignes 6-9\)) Tj ET
+0.92 0.96 0.99 rg 46 697 503 20 re f
+BT /F3 8 Tf 0.09 0.17 0.29 rg 1 0 0 1 53 703 Tm (school_admin_email\(\) retourne fayebayedame399@gmail.com.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 673 Tm (Cette fonction renvoie líunique adresse autorisee. Cíest une liste blanche a un seul) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 660.5 Tm (membre : toute autre adresse sera refusee, meme si le mot de passe est correct.) Tj ET
+BT /F2 12 Tf 0.12 0.38 0.66 rg 1 0 0 1 46 637 Tm (Demarrage de session \(lignes 11-22\)) Tj ET
+0.12 0.38 0.66 rg 48 620 4 4 re f
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 618 Tm (session_status\(\) evite de demarrer une session deja active.) Tj ET
+0.12 0.38 0.66 rg 48 603.5 4 4 re f
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 601.5 Tm (session.use_strict_mode reduit le risque díaccepter un identifiant de session fourni par) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 589 Tm (un visiteur.) Tj ET
+0.12 0.38 0.66 rg 48 574.5 4 4 re f
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 572.5 Tm (__DIR__ pointe vers le dossier du projet. Le code cree sessions/ si necessaire, avec les) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 560 Tm (permissions 0700.) Tj ET
+0.12 0.38 0.66 rg 48 545.5 4 4 re f
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 543.5 Tm (Si le dossier est accessible en ecriture, PHP y stocke les sessions, puis session_start\(\)) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 531 Tm (reprend ou cree la session.) Tj ET
+BT /F2 12 Tf 0.12 0.38 0.66 rg 1 0 0 1 46 509.5 Tm (Configuration des identifiants \(lignes 24-28\)) Tj ET
+0.92 0.96 0.99 rg 46 485.5 503 20 re f
+BT /F3 8 Tf 0.09 0.17 0.29 rg 1 0 0 1 53 491.5 Tm (school_credentials_configured\(\) exige une adresse admin valide ET SCHOOL_ADMIN_PASSWORD_HASH non vide.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 461.5 Tm (Le mot de passe en clair níest pas stocke dans le code : le serveur doit fournir son) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 449 Tm (empreinte dans la variable díenvironnement SCHOOL_ADMIN_PASSWORD_HASH.) Tj ET
+BT /F2 12 Tf 0.12 0.38 0.66 rg 1 0 0 1 46 425.5 Tm (Etat connecte et protection \(lignes 30-41\)) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 406.5 Tm (school_is_authenticated\(\) retourne vrai uniquement si la session contient school_authenticated) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 394 Tm (avec la valeur booleenne true. school_require_authentication\(\) redirige sinon vers) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 381.5 Tm (connexion.php et stoppe le script. Chaque page privee doit appeler cette fonction.) Tj ET
+BT /F2 12 Tf 0.12 0.38 0.66 rg 1 0 0 1 46 358 Tm (Deconnexion \(lignes 43-51\)) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 339 Tm (school_logout\(\) vide les donnees de session, expire le cookie de session si les cookies sont) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 326.5 Tm (actifs, puis detruit la session cote serveur. connexion.php redirige ensuite vers la page de) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 314 Tm (connexion.) Tj ET
+0.83 0.87 0.91 rg 46 34 503 0.7 re f
+BT /F1 8 Tf 0.38 0.43 0.49 rg 1 0 0 1 46 19 Tm (School Kadija | Guide de lecture du code) Tj ET
+BT /F1 8 Tf 0.38 0.43 0.49 rg 1 0 0 1 515 19 Tm (2 / 4) Tj ET
+
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 3906 >>
+stream
+0.09 0.17 0.29 rg 0 830 595 12 re f
+BT /F2 21 Tf 0.09 0.17 0.29 rg 1 0 0 1 46 789 Tm (2. Le fichier connexion.php) Tj ET
+BT /F1 9 Tf 0.38 0.43 0.49 rg 1 0 0 1 46 769 Tm (Traitement du formulaire et decision díacces) Tj ET
+0.83 0.87 0.91 RG 0.7 w 46 750 m 549 750 l S
+BT /F2 12 Tf 0.12 0.38 0.66 rg 1 0 0 1 46 721 Tm (Preparation de la page \(lignes 2-16\)) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 702 Tm (require_once charge auth.php une seule fois. $message commence vide. Si líURL contient) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 689.5 Tm (?page=deconnexion, le code deconnecte puis redirige. Si une session valide existe deja,) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 677 Tm (líutilisateur est envoye vers deux.php.) Tj ET
+BT /F2 12 Tf 0.12 0.38 0.66 rg 1 0 0 1 46 653.5 Tm (Lecture des champs \(lignes 18-20\)) Tj ET
+0.92 0.96 0.99 rg 46 629.5 503 20 re f
+BT /F3 8 Tf 0.09 0.17 0.29 rg 1 0 0 1 53 635.5 Tm (Les deux valeurs sont lues depuis POST; trim\(\) retire les espaces de líadresse.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 605.5 Tm (Le traitement nía lieu que pour une requete POST. ?? fournit une chaine vide si le champ) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 593 Tm (manque. Le mot de passe conserve sa valeur exacte.) Tj ET
+BT /F2 12 Tf 0.12 0.38 0.66 rg 1 0 0 1 46 569.5 Tm (Les controles, dans líordre \(lignes 22-28\)) Tj ET
+0.92 0.96 0.99 rg 46 548.5 18 18 re f
+BT /F2 9 Tf 0.12 0.38 0.66 rg 1 0 0 1 52 553.5 Tm (1) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 73 550.5 Tm (filter_var valide la syntaxe de líadresse et le mot de passe ne doit pas etre) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 73 538 Tm (vide.) Tj ET
+0.92 0.96 0.99 rg 46 517.5 18 18 re f
+BT /F2 9 Tf 0.12 0.38 0.66 rg 1 0 0 1 52 522.5 Tm (2) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 73 519.5 Tm (school_credentials_configured\(\) exige une adresse admin valide et un hash) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 73 507 Tm (configure.) Tj ET
+0.92 0.96 0.99 rg 46 486.5 18 18 re f
+BT /F2 9 Tf 0.12 0.38 0.66 rg 1 0 0 1 52 491.5 Tm (3) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 73 488.5 Tm (hash_equals compare les adresses en minuscules, sans comparaison prematurement) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 73 476 Tm (arretee.) Tj ET
+0.92 0.96 0.99 rg 46 455.5 18 18 re f
+BT /F2 9 Tf 0.12 0.38 0.66 rg 1 0 0 1 52 460.5 Tm (4) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 73 457.5 Tm (password_verify compare le mot de passe saisi au hash de líenvironnement.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 439 Tm (Le OU \(||\) signifie que líechec de líun des deux controles suffit a refuser líacces.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 426.5 Tm (Líadresse et le mot de passe incorrects donnent le meme message, ce qui evite de reveler) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 414 Tm (quel champ etait juste.) Tj ET
+BT /F2 12 Tf 0.12 0.38 0.66 rg 1 0 0 1 46 390.5 Tm (Connexion reussie \(lignes 29-34\)) Tj ET
+0.92 0.96 0.99 rg 46 366.5 503 20 re f
+BT /F3 8 Tf 0.09 0.17 0.29 rg 1 0 0 1 53 372.5 Tm (session_regenerate_id\(true\);  // nouvel identifiant de session) Tj ET
+0.92 0.96 0.99 rg 46 337.5 503 20 re f
+BT /F3 8 Tf 0.09 0.17 0.29 rg 1 0 0 1 53 343.5 Tm (La session marque school_authenticated a true.) Tj ET
+0.92 0.96 0.99 rg 46 308.5 503 20 re f
+BT /F3 8 Tf 0.09 0.17 0.29 rg 1 0 0 1 53 314.5 Tm (Redirection vers deux.php puis fin du traitement.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 284.5 Tm (Le nouvel identifiant aide a prevenir la fixation de session. Le marqueur indique que) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 272 Tm (líutilisateur est authentifie. La redirection termine le traitement avant le rendu HTML.) Tj ET
+0.83 0.87 0.91 rg 46 34 503 0.7 re f
+BT /F1 8 Tf 0.38 0.43 0.49 rg 1 0 0 1 46 19 Tm (School Kadija | Guide de lecture du code) Tj ET
+BT /F1 8 Tf 0.38 0.43 0.49 rg 1 0 0 1 515 19 Tm (3 / 4) Tj ET
+
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 3831 >>
+stream
+0.09 0.17 0.29 rg 0 830 595 12 re f
+BT /F2 21 Tf 0.09 0.17 0.29 rg 1 0 0 1 46 789 Tm (3. Formulaire, limites et synthese) Tj ET
+BT /F1 9 Tf 0.38 0.43 0.49 rg 1 0 0 1 46 769 Tm (Le reste de connexion.php, lignes 38-119) Tj ET
+0.83 0.87 0.91 RG 0.7 w 46 750 m 549 750 l S
+BT /F2 12 Tf 0.12 0.38 0.66 rg 1 0 0 1 46 721 Tm (Partie HTML) Tj ET
+0.12 0.38 0.66 rg 48 704 4 4 re f
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 702 Tm (<form action="connexion.php" method="post"> envoie les donnees au serveur avec POST.) Tj ET
+0.12 0.38 0.66 rg 48 687.5 4 4 re f
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 685.5 Tm (type="email" aide le navigateur a controler le format; required empeche un envoi vide) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 673 Tm (depuis líinterface. PHP doit refaire ces controles car une requete peut etre fabriquee.) Tj ET
+0.12 0.38 0.66 rg 48 658.5 4 4 re f
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 656.5 Tm (name="email" et name="motdepasse" sont les noms transmis dans $_POST. autocomplete aide le) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 644 Tm (navigateur a proposer les champs connus.) Tj ET
+0.12 0.38 0.66 rg 48 629.5 4 4 re f
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 627.5 Tm (htmlspecialchars\($message\) echappe le message avant insertion dans la page, pour eviter) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 615 Tm (quíun texte soit interprete comme HTML.) Tj ET
+0.12 0.38 0.66 rg 48 600.5 4 4 re f
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 598.5 Tm (Le pied de page affiche líannee courante. Le CSS gere líapparence; il ne decide pas) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 586 Tm (qui peut entrer.) Tj ET
+BT /F2 12 Tf 0.12 0.38 0.66 rg 1 0 0 1 46 564.5 Tm (Que signifie ìblocage par e-mailî ici ?) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 545.5 Tm (Cíest une restriction díidentite : une seule adresse est admise. Le message díerreur) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 533 Tm (níest pas un blocage temporaire. Chaque nouvel essai est traite de nouveau. Aucun compteur) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 520.5 Tm (díessais, minuterie, blocage díadresse IP, courriel díalerte ou lien de reinitialisation) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 46 508 Tm (níapparait dans ces fichiers.) Tj ET
+BT /F2 12 Tf 0.12 0.38 0.66 rg 1 0 0 1 46 484.5 Tm (Configuration requise) Tj ET
+0.12 0.38 0.66 rg 48 467.5 4 4 re f
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 465.5 Tm (Definir SCHOOL_ADMIN_PASSWORD_HASH sur le serveur avec un hash genere par password_hash\(\).) Tj ET
+0.12 0.38 0.66 rg 48 451 4 4 re f
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 449 Tm (Rendre cette variable accessible au processus PHP; sans elle, la page signale que la) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 436.5 Tm (connexion níest pas configuree.) Tj ET
+0.12 0.38 0.66 rg 48 422 4 4 re f
+BT /F1 9 Tf 0.13 0.17 0.22 rg 1 0 0 1 60 420 Tm (Verifier que les pages privees appellent school_require_authentication\(\).) Tj ET
+0.92 0.96 0.99 rg 46 355.5 503 55 re f
+0.12 0.38 0.66 rg 46 355.5 4 55 re f
+BT /F2 9 Tf 0.09 0.17 0.29 rg 1 0 0 1 59 397.5 Tm (Resume : e-mail autorise + mot de passe valide -> session authentifiee -> acces a) Tj ET
+BT /F2 9 Tf 0.09 0.17 0.29 rg 1 0 0 1 59 384.5 Tm (deux.php. Toute autre combinaison est refusee, mais le compte níest pas verrouille) Tj ET
+BT /F2 9 Tf 0.09 0.17 0.29 rg 1 0 0 1 59 371.5 Tm (apres plusieurs echecs.) Tj ET
+BT /F1 7 Tf 0.38 0.43 0.49 rg 1 0 0 1 46 344.5 Tm (Code analyse : auth.php \(lignes 1-51\) et connexion.php \(lignes 1-119\). Etat constate au 29) Tj ET
+BT /F1 7 Tf 0.38 0.43 0.49 rg 1 0 0 1 46 334.5 Tm (octobre 2026.) Tj ET
+0.83 0.87 0.91 rg 46 34 503 0.7 re f
+BT /F1 8 Tf 0.38 0.43 0.49 rg 1 0 0 1 46 19 Tm (School Kadija | Guide de lecture du code) Tj ET
+BT /F1 8 Tf 0.38 0.43 0.49 rg 1 0 0 1 515 19 Tm (4 / 4) Tj ET
+
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 12 0 R >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000141 00000 n 
+0000000238 00000 n 
+0000000340 00000 n 
+0000000435 00000 n 
+0000003608 00000 n 
+0000003754 00000 n 
+0000007388 00000 n 
+0000007534 00000 n 
+0000011493 00000 n 
+0000011641 00000 n 
+0000015525 00000 n 
+trailer
+<< /Size 14 /Root 1 0 R >>
+startxref
+15673
+%%EOF
